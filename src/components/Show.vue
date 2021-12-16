@@ -45,7 +45,7 @@
             </p>
             <p>
               <b>Capital:</b>
-              {{ land.capital[0] }}
+              {{ [...land.capital].shift() }}
             </p>
           </div>
           <div class="w-1/2">
