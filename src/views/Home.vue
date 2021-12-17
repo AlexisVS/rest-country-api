@@ -72,9 +72,6 @@ export default {
   },
   methods: {
     filteredCountries () {
-      if (this.input) {
-        setTimeout(() => {}, 1200);
-      }
       axios
         .get(this.getFetchUrl)
         .then(res => {
